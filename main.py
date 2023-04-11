@@ -19,7 +19,6 @@ class Game:
           Player(self, j, i)
     
   def new(self):
-    self.createTileMap()
     # a new game starts
     self.playing = True
     
